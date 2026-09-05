@@ -1,32 +1,77 @@
-# React + TypeScript + Vite
+Autonomous portfolio risk-control system that detects market shocks, evaluates multi-dimensional risk, optimizes asset allocation, and performs constraint-aware simulated rebalancing.
+# 🛡️ Autonomous Capital Guardian
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Detect • Decide • Protect • Rebalance**
 
-Currently, two official plugins are available:
+Autonomous Capital Guardian is a FinTech risk-control and portfolio optimization system designed to continuously monitor portfolio risk, detect simulated market shocks, and automatically determine a constrained response.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instead of simply detecting and reporting risk, the system closes the control loop:
 
-## React Compiler
+**Sense → Assess → Decide → Optimize → Rebalance → Verify**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Key Features
 
-## Expanding the Oxlint configuration
+- Multi-dimensional portfolio risk assessment
+- VaR and Expected Shortfall analysis
+- Volatility and drawdown monitoring
+- Concentration and liquidity risk evaluation
+- Simulated market-shock detection
+- Risk-state based control logic
+- Constraint-aware portfolio optimization
+- Automated simulated rebalancing
+- Safety guardrails for capital protection
+- Explainable autonomous decisions
+- Autonomous and human-approval modes
+- Before/after risk verification
+- Scenario-based market simulation
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🧠 Risk Control
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+| Risk State | Risk Score | Action |
+|---|---:|---|
+| 🟢 LOW | < 40 | No Action |
+| 🟡 MODERATE | 40–60 | Monitor |
+| 🟠 HIGH | 60–75 | Rebalance |
+| 🔴 CRITICAL | > 75 | Defensive De-risk |
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## ⚙️ Optimization
+
+The optimizer seeks a risk-adjusted allocation while controlling unnecessary portfolio turnover:
+
+`Optimal Allocation = argmax(Return − λ·Risk − k·Turnover)`
+
+Subject to allocation limits, minimum cash reserves, liquidity constraints, maximum turnover, and transaction-cost considerations.
+
+## 🏗️ Architecture
+
+Simulated Market Data  
+↓  
+Market Intelligence  
+↓  
+Risk Engine  
+↓  
+Shock Detector  
+↓  
+Control Engine  
+↓  
+Optimization Engine  
+↓  
+Simulated Rebalancer  
+↓  
+Risk Verification  
+↓  
+Decision Dashboard
+
+## 💻 Technology Stack
+
+- **Frontend:** React + TypeScript
+- **Backend:** FastAPI + Python
+- **Financial Computing:** NumPy + Pandas + SciPy
+- **Database:** SQLite
+- **Data:** Synthetic / simulated market data
+
+## 🎯 Project Goal
+
+Transform traditional reactive risk monitoring into an autonomous capital-protection loop that can **detect risk, make an explainable decision, optimize the response, rebalance within predefined guardrails, and verify the resulting risk state.**
+
+> ⚠️ This is an educational/hackathon prototype using simulated data. No real financial transactions are executed and the system does not provide financial advice.
