@@ -1,4 +1,4 @@
-Autonomous portfolio risk-control system that detects market shocks, evaluates multi-dimensional risk, optimizes asset allocation, and performs constraint-aware simulated rebalancing.
+#Autonomous portfolio risk-control system that detects market shocks, evaluates multi-dimensional risk, optimizes asset allocation, and performs constraint-aware simulated rebalancing.
 # 🛡️ Autonomous Capital Guardian
 
 **Detect • Decide • Protect • Rebalance**
